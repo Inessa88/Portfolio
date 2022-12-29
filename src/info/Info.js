@@ -1,37 +1,27 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import photo1 from "../img/photo1.png"
+import photo2 from "../img/photo2.png"
+import photo3 from "../img/photo3.png"
+import photo4 from "../img/photo4.png"
+
 
 
 export let colors = ["rgb(154, 44, 126)", "rgb(230, 40, 42)"];
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
-//rgb(58, 240, 8), rgb(125, 93, 145)
 
+//rgb(58, 240, 8), rgb(125, 93, 145)
 //"rgb(0,255,164)", "rgb(166,104,255)"
 //rgb(154, 44, 126), rgb(230, 40, 42
 
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
     firstName: "Inessa",
     lastName: "Petrova",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "ip", 
     position: "a Full Stack Developer",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    selfPortrait: self, 
+    gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [ 
         {
             emoji: '🌎',
             text: 'based in the Israel'
@@ -61,9 +51,19 @@ export const info = {
             frontEnd: ['javascript', 'react', 'bootstrap', 'html5', 'css3', 'dom'],
             backEnd: ['nodejs', 'express', 'postgresql', 'python 3', 'odoo'],
             tools: ['git', 'gitHub', 'vscode']
-        }
-
-    ,
+        },
+    education:
+    {
+        israel: ['Developers Institute, TLV Coding Bootcamp: Full Stack Web Development, JavaScript program, 2022'],
+        self: ['Multiple courses on codecademy.com, edx.com, khanacademy.org etc., 2020-2022'],
+        belarus: ['BSs in "Marketing" and "Banking", graduated with honors, 2006-2012']
+    },
+    experience:
+    {
+        latest: ['Multiple projects within the studies in Developers Institute, TLV Coding Bootcamp, self-education'],
+        before: ['Self-employed with projects as Python web developer on Odoo 13 and 14 “Learning Hebrew" App and "Home Accounting" App'],
+        previous: ['Procurement specialist/Business owner (in government and private sector companies)']
+    },
     hobbies: [
         {
             label: 'reading',
@@ -82,30 +82,30 @@ export const info = {
             emoji: '🚴🏻‍♀️'
         }
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [ 
         {
             title: "Gluten-Free Guide",
-            live: "https://gfguide-fp.onrender.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/Inessa88/gfguide-fp", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            live: "https://gfguide-fp.onrender.com/", 
+            source: "https://github.com/Inessa88/gfguide-fp", 
+            image: photo1
         },
         {
             title: "Quote Generator",
             live: "https://paytonpierce.dev",
             source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week8/Day5/Mini-project/quotes",
-            image: mock2
+            image: photo2
         },
         {
             title: "To do List",
             live: "https://paytonpierce.dev",
             source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week8/Day5/Mini-project2/todo",
-            image: mock3
+            image: photo3
         },
         {
             title: "Search Book App",
             live: "https://paytonpierce.dev",
             source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week10/Day4/Mini-project/search-book",
-            image: mock4
+            image: photo4
         }
 
     ]
