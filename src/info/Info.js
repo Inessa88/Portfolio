@@ -16,7 +16,7 @@ export let colors = ["rgb(154, 44, 126)", "rgb(230, 40, 42)"];
 export const info = {
     firstName: "Inessa",
     lastName: "Petrova",
-    initials: "ip", 
+    initials: "", 
     position: "a Full Stack Developer",
     selfPortrait: self, 
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, 
@@ -24,7 +24,7 @@ export const info = {
     miniBio: [ 
         {
             emoji: '🌎',
-            text: 'based in the Israel'
+            text: 'based in Israel'
         },
         {
             emoji: "📧",
@@ -50,7 +50,7 @@ export const info = {
         {
             frontEnd: ['javascript', 'react', 'bootstrap', 'html5', 'css3', 'dom'],
             backEnd: ['nodejs', 'express', 'postgresql', 'python 3', 'odoo'],
-            tools: ['git', 'gitHub', 'vscode']
+            tools: ['git', 'command line', 'vscode']
         },
     education:
     {
