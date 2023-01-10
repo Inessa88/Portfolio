@@ -93,19 +93,19 @@ export const info = {
         },
         {
             title: "Quote Generator",
-            live: "https://paytonpierce.dev",
+            live: "https://gfguide-fp.onrender.com/",
             source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week8/Day5/Mini-project/quotes",
             image: photo2
         },
         {
             title: "To do List",
-            live: "https://paytonpierce.dev",
+            live: "https://gfguide-fp.onrender.com/",
             source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week8/Day5/Mini-project2/todo",
             image: photo3
         },
         {
             title: "Search Book App",
-            live: "https://paytonpierce.dev",
+            live: "https://gfguide-fp.onrender.com/",
             source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week10/Day4/Mini-project/search-book",
             image: photo4
         }
