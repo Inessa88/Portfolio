@@ -50,8 +50,8 @@ export const info = {
     bio: "Aspiring JavaScript developer with former wide experience in business, has modern toolkit usage experience, took part in all steps of software development life cycle. Eager to learn and to create effective customer-oriented solutions on new projects.",
     skills:
         {
-            frontEnd: ['javascript', 'react', 'bootstrap', 'html5', 'css3', 'dom'],
-            backEnd: ['nodejs', 'express', 'postgresql', 'python 3', 'odoo'],
+            frontEnd: ['javascript', 'react', 'bootstrap', 'redux', ' typescript', 'html5', 'css3', 'dom'],
+            backEnd: ['nodejs', 'express', 'postgresql', 'mongoDB', 'python 3', 'odoo'],
             tools: ['git', 'command line', 'vscode']
         },
     education:
@@ -62,7 +62,7 @@ export const info = {
     },
     experience:
     {
-        latest: ['Multiple projects within the studies in Developers Institute, TLV Coding Bootcamp, self-education'],
+        latest: ['Multiple projects within the studies in Developers Institute using JavaScript, React, Redux, PostgreSQL, Node JS, etc., TLV Coding Bootcamp, self-education'],
         before: ['Self-employed with projects as Python web developer on Odoo 13 and 14 “Learning Hebrew" App and "Home Accounting" App'],
         previous: ['Procurement specialist/Business owner (in government and private sector companies)']
     },
