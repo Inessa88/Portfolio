@@ -35,7 +35,7 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://github.com/Inessa88",
+            link: "https://github.com/Inessa88/gfguide-s3",
             icon: "fa fa-github",
             label: 'github'
         },
@@ -87,28 +87,28 @@ export const info = {
     portfolio: [ 
         {
             title: "Gluten-Free Guide",
-            live: "https://gfguide-fp.onrender.com/", 
-            source: "https://github.com/Inessa88/gfguide-fp", 
+            live: "http://ec2-174-129-62-222.compute-1.amazonaws.com/map", 
+            source: "https://github.com/Inessa88/gfguide-s3", 
             image: photo1
         },
         {
-            title: "Quote Generator",
+            title: "Hackathon Project 'Movie Chooser'",
             live: "https://gfguide-fp.onrender.com/",
-            source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week8/Day5/Mini-project/quotes",
+            source: "https://github.com/Inessa88/Hackathon_DI",
             image: photo2
         },
-        {
-            title: "To do List",
-            live: "https://gfguide-fp.onrender.com/",
-            source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week8/Day5/Mini-project2/todo",
-            image: photo3
-        },
-        {
-            title: "Search Book App",
-            live: "https://gfguide-fp.onrender.com/",
-            source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week10/Day4/Mini-project/search-book",
-            image: photo4
-        }
+        // {
+        //     title: "To do List",
+        //     live: "https://gfguide-fp.onrender.com/",
+        //     source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week8/Day5/Mini-project2/todo",
+        //     image: photo3
+        // },
+        // {
+        //     title: "Search Book App",
+        //     live: "https://gfguide-fp.onrender.com/",
+        //     source: "https://github.com/Inessa88/DI_Bootcamp/tree/main/Week10/Day4/Mini-project/search-book",
+        //     image: photo4
+        // }
 
     ]
 }
