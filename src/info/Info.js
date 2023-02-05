@@ -93,7 +93,7 @@ export const info = {
         },
         {
             title: "Hackathon Project 'Movie Chooser'",
-            live: "https://gfguide-fp.onrender.com/",
+            live: "https://inessa88.github.io/Hackathon_DI/",
             source: "https://github.com/Inessa88/Hackathon_DI",
             image: photo2
         },
